@@ -130,6 +130,7 @@ button {
   height: 350px;
   background-color: #e5e7eb;
   display: flex;
+  flex-direction: column;
 
   justify-content: center;
   align-items: center;
@@ -141,14 +142,11 @@ button {
   font-style: italic;
 
   color: #1f2937;
-  width: 820px;
+  width: 780px;
 }
 
-footer {
-  text-align: right;
+.author {
+  padding-left: 470px;
   font-weight: bold;
-}
-
-cite {
-  font-style: none;
+  font-size: 22px;
 }
