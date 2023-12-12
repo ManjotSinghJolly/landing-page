@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   margin: 0px;
 }
@@ -125,4 +124,31 @@ button {
   text-align: center;
   margin-left: -10px;
   padding-top: 10px;
+}
+
+.quote {
+  height: 350px;
+  background-color: #e5e7eb;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.quote p {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+
+  color: #1f2937;
+  width: 820px;
+}
+
+footer {
+  text-align: right;
+  font-weight: bold;
+}
+
+cite {
+  font-style: none;
 }
